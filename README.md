@@ -9,6 +9,7 @@ This project is designed to provide a comprehensive solution for trajectory plan
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Instruction](#instruction)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -21,6 +22,16 @@ This is a repository for mujoco dynamics simulation and compliance control.
 - signed distance field (sdf)
 - dynamics simulation
 - compliance control
+
+## Instruction
+### 1. Model Files
+1. iiwa14_dock.xml is an iiwa model with sdf linked at the end;
+2. iiwa14_dock.urdf is the urdf version of iiwa14_dock.xml, used for pin's dynamics calculation;
+
+### 2. Core Scripts
+1. dynamics.py - Used to verify the dynamics of pin and mujoco
+2. Relate_class.py - Contains related classes for the simulation,trajectory planning,inverse kinematics,dynamics control,etc;
+3. task_dynamics_mujoco_control.py - Main simulation script for running the dynamics control
 
 ## Usage
 
