@@ -40,11 +40,11 @@ To use this repository, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ming751/rm_robot.git
+   git clone https://github.com/ming751/initial_docking_model.git
    ```
 
    ```bash
-   cd rm_robot
+   cd initial_docking_model
    ```
 
 2. Install the dependencies(if you use dymamic simulation, you need to install pinocchio,pinocchio must be installed in linux system):
